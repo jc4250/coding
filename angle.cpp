@@ -1,5 +1,5 @@
 
-https://leetcode.com/problems/angle-between-hands-of-a-clock/
+// https://leetcode.com/problems/angle-between-hands-of-a-clock/
 
 class Solution {
 public:
@@ -9,7 +9,7 @@ public:
         
         double orh = ((1.0 * minutes)/(60)) + hour;
         
-        if (orh >= 12) {
+	        if (orh >= 12) {
             orh -= 12;
         }
         
